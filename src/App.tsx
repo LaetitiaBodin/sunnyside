@@ -1,12 +1,13 @@
+import Header from './layout/Header/Header'
+
 import './App.css'
 
 function App () {
   return (
-    <div className="bg-midnight text-white">
-      <h1>SETUP OK</h1>
+    <div className="bg-white">
+      < Header />
     </div>
   )
 }
 
 export default App
-
