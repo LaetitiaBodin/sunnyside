@@ -1,5 +1,6 @@
 import Header from './layout/Header/Header'
 import Main from './layout/Main/Main'
+import Footer from './layout/Footer/Footer'
 
 import './App.css'
 
@@ -8,6 +9,7 @@ function App () {
     <div className="bg-white">
       < Header />
       < Main />
+      < Footer />
     </div>
   )
 }

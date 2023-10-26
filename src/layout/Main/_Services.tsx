@@ -45,8 +45,8 @@ export default function Services () {
       { services.map( (link, idx) => {
             return (
               <Service
-                isSwapped={ (idx % 2 === 0 && link.url !== undefined ) ? false : true }
-                isStacked={ link.url !== undefined ? false : true }
+                isSwapped={ (idx % 2 === 0 && link.hasOwnProperty('url') ) ? false : true }
+                isStacked={ link.hasOwnProperty('url') ? false : true }
                 title={ link.title }
                 text={ link.text }
                 src={ link.src }

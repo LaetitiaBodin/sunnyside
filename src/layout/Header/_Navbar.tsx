@@ -63,10 +63,10 @@ export default function Navbar () {
           { links.map( (link, idx) => {
               return (
                 < Link
-                  text={ link.text }
-                  url={ link.url }
-                  isLast={ idx === links.length-1 ? true : false }
-                  key={ `navlink-top--${idx}` }
+                    text={ link.text }
+                    url={ link.url }
+                    isLast={ idx === links.length-1 ? true : false }
+                    key={ `navlink-top--${idx}` }
                 />
               )
             })

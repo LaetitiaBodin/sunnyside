@@ -37,7 +37,7 @@ export default function Testimonials () {
         {
           testimonials.map( (t, i) => {
             return (
-              <Testimonial
+              < Testimonial
                 text={ t.text }
                 authorPic={ t.authorPic }
                 authorName={ t.authorName }

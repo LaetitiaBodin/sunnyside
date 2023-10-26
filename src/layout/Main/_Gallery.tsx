@@ -31,10 +31,10 @@ export default function Gallery () {
       {
         pics.map( (pic, idx) => {
           return (
-            <Picture
-              src={ pic.src }
-              alt={ pic.alt }
-              key={`gallery-pic--${idx}`}
+            < Picture
+                src={ pic.src }
+                alt={ pic.alt }
+                key={`gallery-pic--${idx}`}
             />
           )
         })
