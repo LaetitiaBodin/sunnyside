@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+# Sunnyside #  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description ##  
+This project is a landing page for a fictional design agency.  
+It was inspired by a mockup found on **Frontend  Mentor** .  
+The colors, fonts, images and general layout used were provided in said mockup and a few changes were made.
 
-## Available Scripts
+## Demo ##  
+A deployment with **Github Pages** is available [here](https://laetitiabodin.github.io/sunnyside).
 
-In the project directory, you can run:
+<details>
+  <summary>Smartphone - portrait</summary><br>
+  
+  ![Smartphone-Portrait preview](ReadMe/1-smartphone-portrait.gif)
+</details>
+<details>
+  <summary>Smartphone - landscape</summary><br>
+    
+  ![Smartphone-Landscape preview](ReadMe/2-smartphone-landscape.gif)
+</details>
+<details>
+  <summary>Tablet - portrait</summary><br>
+    
+  ![Tablet-Portrait preview](ReadMe/3-tablet-portrait.gif)
+</details>
+<details>
+  <summary>Tablet - landscape</summary><br>
+    
+  ![Tablet-Landscape preview](ReadMe/4-tablet-landscape.gif)
+</details>
+<details>
+  <summary>Laptop</summary><br>
+    
+  ![Laptop preview](ReadMe/5-laptop.gif)
+</details>
 
-### `npm start`
+## Development ##  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### React ###  
+This app was created with [Create React App](https://create-react-app.dev/).  
+A default `README` file was created with a few basic commands.  
+It can be found [here](ReadMe/README.md).
+  
+### Typescript ###
+This app uses **Typescript**.  
+The config file can be found [here](tsconfig.json).
+ 
+### TailwindCSS ###  
+This app uses **TailwindCSS**.  
+The config file can be found [here](tailwind.config.js).  
+Find out more about TailwindCSS [here](https://tailwindcss.com/). 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Environment ###  
+A `.env` is created to contain the variable name for the build.  
+No sensitive information is to be stored in that file.  
+It is mainly used to create the absolute url for the `meta` tags (SEO).
 
-### `npm test`
+### SEO ###  
+`meta` tags with **Open Graph** and **Twitter cards** information are used.  
+Find out more about Open Graph [here](https://ogp.me/).  
+Find out more about Twitter cards [here](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Icons ###  
+**Canva** was used to create a `favicon` and a `card image` from the logo provided in the project starter pack.  
+Find out more about Canva [here](https://www.canva.com/).  
+Icons (SVGs) are directly embeddeb in the HTML.
 
-### `npm run build`
+## Credits ##  
+The code was written by **Laëtitia Bodin** and was inspired by a free-to-use challenge from **Frontend Mentor**.  
+More info regarding said challenge can be found [here](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Troubleshooting ##  
+Should you experience some bug or want to offer some feedback regarding this project, feel free to open an issue for this repo and label it accordingly.  
+Should you experience warnings regarding missing dependencies or updates needed, you might need to run `npm install` or `npm update`.
