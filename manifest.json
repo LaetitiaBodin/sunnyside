@@ -1,0 +1,15 @@
+{
+  "short_name": "Sunnyside",
+  "name": "Sunnyside",
+  "icons": [
+    {
+      "src": "img/meta/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#72ABE3",
+  "background_color": "#ffffff"
+}

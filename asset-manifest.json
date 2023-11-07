@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sunnyside/static/css/main.fa746002.css",
+    "main.js": "/sunnyside/static/js/main.d94be101.js",
+    "static/media/logo.svg": "/sunnyside/static/media/logo.f8af7f844acda4f449ebd5b08d23e119.svg",
+    "index.html": "/sunnyside/index.html",
+    "static/media/instagram.svg": "/sunnyside/static/media/instagram.b03deb20ba6b3dcf7c42412fed140cf3.svg",
+    "static/media/pinterest.svg": "/sunnyside/static/media/pinterest.a38e225a9d1f5b7827201df060c17ef1.svg",
+    "static/media/twitter.svg": "/sunnyside/static/media/twitter.2c65ab1498b61ac1f1e664c20b126961.svg",
+    "static/media/facebook.svg": "/sunnyside/static/media/facebook.ad206febc404ed7b4d78705b46706b80.svg",
+    "static/media/arrow-down.svg": "/sunnyside/static/media/arrow-down.60d8b33e0b4ec56d42add31ee5c7d970.svg",
+    "static/media/hamburger-menu.svg": "/sunnyside/static/media/hamburger-menu.291e3f0875249e777634db812d4cec1d.svg",
+    "main.fa746002.css.map": "/sunnyside/static/css/main.fa746002.css.map",
+    "main.d94be101.js.map": "/sunnyside/static/js/main.d94be101.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa746002.css",
+    "static/js/main.d94be101.js"
+  ]
+}
